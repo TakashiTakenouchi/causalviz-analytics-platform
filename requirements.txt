@@ -20,8 +20,8 @@ kaleido>=0.2.1  # plotlyの静的エクスポート用
 # 因果推論
 econml>=0.14.0
 causalml>=0.13.0
-dowhy>=0.10.0
-causalnex>=0.12.0
+dowhy==0.9.0  # 例: 最新互換バージョン
+causalnex>=0.11.0,<0.12.0  # または最新の互換バージョン
 statsmodels>=0.14.0
 
 # AutoGluon
